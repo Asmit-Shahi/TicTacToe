@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TicTacToe Game</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="shortcut icon" href="logo/logo.png" />
+</head>
+<body>
+	<header class="logo">
+		<img class="logo-img" src="logo/logo.png">
+		<p>TicTacToe</p>
+		<div class="setting">
+			
+		</div>
+	</header>
+	<div id="game-condition">
+		<div id="turn">✕ Turn</div>
+		<div id="winner"></div>
+	</div>
+	<div id="board">
+		<!-- ROW 1 -->
+		<div class="board-items" id="board-item-1" onclick="boardItemOne()"></div>
+		<div class="board-items" id="board-item-2" onclick="boardItemTwo()"></div>
+		<div class="board-items" id="board-item-3" onclick="boardItemThree()"></div>
+		<!-- ROW 2 -->
+		<div class="board-items" id="board-item-4" onclick="boardItemFour()"></div>
+		<div class="board-items" id="board-item-5" onclick="boardItemFive()"></div>
+		<div class="board-items" id="board-item-6" onclick="boardItemSix()"></div>
+		<!-- ROW 3 -->
+		<div class="board-items" id="board-item-7" onclick="boardItemSeven()"></div>
+		<div class="board-items" id="board-item-8" onclick="boardItemEight()"></div>
+		<div class="board-items" id="board-item-9" onclick="boardItemNine()"></div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
